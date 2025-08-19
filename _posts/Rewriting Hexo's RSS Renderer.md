@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Rewriting Hexo's RSS Renderer
 author: Will Kelly
 date: 2025-05-03

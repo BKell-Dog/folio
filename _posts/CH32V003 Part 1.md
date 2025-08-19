@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The CH32V003 Microcontroller - Part 1 - Setup and Basic Script
 author: Will Kelly
 date: 2025-03-05

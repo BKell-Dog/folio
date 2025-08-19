@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 3D Website Design - Part 2 - 3D Models and Rendering
 author: Will Kelly
 date: 2025-03-10

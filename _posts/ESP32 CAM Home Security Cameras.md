@@ -1,4 +1,5 @@
 ---
+layout: post
 title: ESP32 CAM Home Security Cameras
 author: Will Kelly
 date: 2025-07-28

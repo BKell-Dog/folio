@@ -1,4 +1,5 @@
 ---
+layout: post
 title: KT0803L I²C Control - Part 1 - Basic I²C
 author: Will Kelly
 date: 2025-03-29

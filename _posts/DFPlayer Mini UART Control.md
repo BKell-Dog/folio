@@ -1,4 +1,5 @@
 ---
+layout: post
 title: DFPlayer Mini UART Control
 author: Will Kelly
 date: 2025-03-31

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Power Supply Design - Part 1 - Teardown
 author: Will Kelly
 date: 2025-02-26

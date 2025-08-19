@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 3D Website Design - Part 1 - Three.js Setup
 author: Will Kelly
 date: 2025-03-09
