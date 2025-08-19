@@ -1,11 +1,11 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "William Kelly",
+    "label": "Hardware Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "email": "bkelldog59@gmail.com",
+    "phone": "",
+    "url": "https://bkell-dog.github.io/folio/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
       "address": "2712 Broadway St",
@@ -16,21 +16,19 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Nostr",
+        "npub": "npub1e8562guhgfe23p8uyjfyhx6qdhel3dzx2xdrv64esaryr7gg2u8q5r3j0w"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "General Motors",
+      "position": "Wireless Hardware Engineer",
+      "startDate": "2024-06-01",
+      "endDate": "Present",
+      "summary": "Tested the TCP module responsible for car cellular connectivity to discover bugs and design flaws and to coordinate their correction through suppliers. Used a system-level knowledge of GM’s common computer architecture, as well as an understanding of cell network infrastructure, to diagnose the root cause of issues. Rebuilt and rewired multiple test benches that were broken or malfunctioning according to the requirements of my team’s test plan.",
+      "highlights": ["Cell Network Connectivity, RF Engineering, MATLAB"]
     }
   ],
   "volunteer": [
@@ -47,15 +45,15 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "New Jersey Institute of Technology",
+      "location": "Newark, New Jersey",
+      "url": "https://njit.edu/",
+      "area": "Electrical Engineering",
+      "studyType": "BS",
+      "startDate": "2019-09-01",
+      "endDate": "2023-05-15",
+      "score": "3.65",
+      "courses": ["Semiconductor Devices, Energy Conversion, Database Design & Management, Random Signals and Noise, Digital Data Communications, Wireless Communications Systems"]
     }
   ],
   "awards": [
