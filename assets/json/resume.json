@@ -6,7 +6,7 @@
     "email": "bkelldog59@gmail.com",
     "phone": "",
     "url": "https://bkell-dog.github.io/folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "An electronics engineer and programmer discovering how to apply technologies to make life better.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -49,7 +49,7 @@
       "location": "Newark, New Jersey",
       "url": "https://njit.edu/",
       "area": "Electrical Engineering",
-      "studyType": "BS",
+      "studyType": "B.S. in Electrical Engineering",
       "startDate": "2019-09-01",
       "endDate": "2023-05-15",
       "score": "3.65",
@@ -149,13 +149,13 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "English",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Irish Gaelic",
+      "fluency": "Intermediate",
       "icon": ""
     }
   ],
