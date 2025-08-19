@@ -31,8 +31,8 @@ ninja.data = [{
             window.location.href = "/folio/projects/";
           },
         },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          title: "Repositories",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/folio/repositories/";
@@ -72,15 +72,92 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/folio/blog/";
               },
-            },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+            },{id: "post-esp32-cam-home-security-cameras",
         
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: "ESP32 CAM Home Security Cameras",
         
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
+        description: "",
         section: "Posts",
         handler: () => {
           
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+            window.location.href = "/folio/blog/2025/ESP32-CAM-Home-Security-Cameras/";
+          
+        },
+      },{id: "post-rewriting-hexo-39-s-rss-renderer",
+        
+          title: "Rewriting Hexo&#39;s RSS Renderer",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/folio/blog/2025/Rewriting-Hexo's-RSS-Renderer/";
+          
+        },
+      },{id: "post-dfplayer-mini-uart-control",
+        
+          title: "DFPlayer Mini UART Control",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/folio/blog/2025/DFPlayer-Mini-UART-Control/";
+          
+        },
+      },{id: "post-kt0803l-i-c-control-part-1-basic-i-c",
+        
+          title: "KT0803L I²C Control - Part 1 - Basic I²C",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/folio/blog/2025/KT0803L-I2C-Control-Part-1-Basic-I2C/";
+          
+        },
+      },{id: "post-3d-website-design-part-2-3d-models-and-rendering",
+        
+          title: "3D Website Design - Part 2 - 3D Models and Rendering",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/folio/blog/2025/3D-Website-Design-Part-2/";
+          
+        },
+      },{id: "post-3d-website-design-part-1-three-js-setup",
+        
+          title: "3D Website Design - Part 1 - Three.js Setup",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/folio/blog/2025/3D-Website-Design-Part-1/";
+          
+        },
+      },{id: "post-the-ch32v003-microcontroller-part-1-setup-and-basic-script",
+        
+          title: "The CH32V003 Microcontroller - Part 1 - Setup and Basic Script",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/folio/blog/2025/CH32V003-Part-1/";
+          
+        },
+      },{id: "post-power-supply-design-part-1-teardown",
+        
+          title: "Power Supply Design - Part 1 - Teardown",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/folio/blog/2025/Power-Supply-Design-Part-1/";
           
         },
       },{id: "post-displaying-external-posts-on-your-al-folio-blog",

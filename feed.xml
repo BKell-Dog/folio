@@ -1,12 +1,787 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://bkell-dog.github.io/folio/feed.xml" rel="self" type="application/atom+xml"/><link href="https://bkell-dog.github.io/folio/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-08-19T05:42:56+00:00</updated><id>https://bkell-dog.github.io/folio/feed.xml</id><title type="html">Kelly’s Lab</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://bkell-dog.github.io/folio/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://bkell-dog.github.io/folio/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://bkell-dog.github.io/folio/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[<p>May 14, 2024 We’re introducing a series of updates across the Gemini family of models, including the new 1.5 Flash, our lightweight model for speed and efficiency, and Project Astra, our vision for the future of AI assistants. In December, we launched our first natively multimodal model Gemini 1.0 in three sizes: Ultra, Pro and Nano. Just a few months later we released 1.5 Pro, with enhanced performance and a breakthrough long context window of 1 million tokens.Developers and enterprise customers have been putting 1.5 Pro to use in incredible ways and finding its long context window, multimodal reasoning capabilities and impressive overall performance incredibly useful.We know from user feedback that some applications need lower latency and a lower cost to serve. This inspired us to keep innovating, so today, we’re introducing Gemini 1.5 Flash: a model that’s lighter-weight than 1.5 Pro, and designed to be fast and efficient to serve at scale.Both 1.5 Pro and 1.5 Flash are available in public preview with a 1 million token context window in Google AI Studio and Vertex AI. And now, 1.5 Pro is also available with a 2 million token context window via waitlist to developers using the API and to Google Cloud customers.We’re also introducing updates across the Gemini family of models, announcing our next generation of open models, Gemma 2, and sharing progress on the future of AI assistants, with Project Astra.Context lengths of leading foundation models compared with Gemini 1.5’s 2 million token capability1.5 Flash is the newest addition to the Gemini model family and the fastest Gemini model served in the API. It’s optimized for high-volume, high-frequency tasks at scale, is more cost-efficient to serve and features our breakthrough long context window.While it’s a lighter weight model than 1.5 Pro, it’s highly capable of multimodal reasoning across vast amounts of information and delivers impressive quality for its size.The new Gemini 1.5 Flash model is optimized for speed and efficiency, is highly capable of multimodal reasoning and features our breakthrough long context window.1.5 Flash excels at summarization, chat applications, image and video captioning, data extraction from long documents and tables, and more. This is because it’s been trained by 1.5 Pro through a process called “distillation,” where the most essential knowledge and skills from a larger model are transferred to a smaller, more efficient model.Read more about 1.5 Flash in our updated Gemini 1.5 technical report, on the Gemini technology page, and learn about 1.5 Flash’s availability and pricing.Over the last few months, we’ve significantly improved 1.5 Pro, our best model for general performance across a wide range of tasks.Beyond extending its context window to 2 million tokens, we’ve enhanced its code generation, logical reasoning and planning, multi-turn conversation, and audio and image understanding through data and algorithmic advances. We see strong improvements on public and internal benchmarks for each of these tasks.1.5 Pro can now follow increasingly complex and nuanced instructions, including ones that specify product-level behavior involving role, format and style. We’ve improved control over the model’s responses for specific use cases, like crafting the persona and response style of a chat agent or automating workflows through multiple function calls. And we’ve enabled users to steer model behavior by setting system instructions.We added audio understanding in the Gemini API and Google AI Studio, so 1.5 Pro can now reason across image and audio for videos uploaded in Google AI Studio. And we’re now integrating 1.5 Pro into Google products, including Gemini Advanced and in Workspace apps.Read more about 1.5 Pro in our updated Gemini 1.5 technical report and on the Gemini technology page.Gemini Nano is expanding beyond text-only inputs to include images as well. Starting with Pixel, applications using Gemini Nano with Multimodality will be able to understand the world the way people do — not just through text, but also through sight, sound and spoken language.Read more about Gemini 1.0 Nano on Android.Today, we’re also sharing a series of updates to Gemma, our family of open models built from the same research and technology used to create the Gemini models.We’re announcing Gemma 2, our next generation of open models for responsible AI innovation. Gemma 2 has a new architecture designed for breakthrough performance and efficiency, and will be available in new sizes.The Gemma family is also expanding with PaliGemma, our first vision-language model inspired by PaLI-3. And we’ve upgraded our Responsible Generative AI Toolkit with LLM Comparator for evaluating the quality of model responses.Read more on the Developer blog.As part of Google DeepMind’s mission to build AI responsibly to benefit humanity, we’ve always wanted to develop universal AI agents that can be helpful in everyday life. That’s why today, we’re sharing our progress in building the future of AI assistants with Project Astra (advanced seeing and talking responsive agent).To be truly useful, an agent needs to understand and respond to the complex and dynamic world just like people do — and take in and remember what it sees and hears to understand context and take action. It also needs to be proactive, teachable and personal, so users can talk to it naturally and without lag or delay.While we’ve made incredible progress developing AI systems that can understand multimodal information, getting response time down to something conversational is a difficult engineering challenge. Over the past few years, we’ve been working to improve how our models perceive, reason and converse to make the pace and quality of interaction feel more natural.Building on Gemini, we’ve developed prototype agents that can process information faster by continuously encoding video frames, combining the video and speech input into a timeline of events, and caching this information for efficient recall.By leveraging our leading speech models, we also enhanced how they sound, giving the agents a wider range of intonations. These agents can better understand the context they’re being used in, and respond quickly, in conversation.With technology like this, it’s easy to envision a future where people could have an expert AI assistant by their side, through a phone or glasses. And some of these capabilities are coming to Google products, like the Gemini app and web experience, later this year.We’ve made incredible progress so far with our family of Gemini models, and we’re always striving to advance the state-of-the-art even further. By investing in a relentless production line of innovation, we’re able to explore new ideas at the frontier, while also unlocking the possibility of new and exciting Gemini use cases.Learn more about Gemini and its capabilities. Your information will be used in accordance with Google’s privacy policy.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      Done. Just one step more.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://bkell-dog.github.io/folio/feed.xml" rel="self" type="application/atom+xml"/><link href="https://bkell-dog.github.io/folio/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-08-19T07:08:28+00:00</updated><id>https://bkell-dog.github.io/folio/feed.xml</id><title type="html">Kelly’s Lab</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">ESP32 CAM Home Security Cameras</title><link href="https://bkell-dog.github.io/folio/blog/2025/ESP32-CAM-Home-Security-Cameras/" rel="alternate" type="text/html" title="ESP32 CAM Home Security Cameras"/><published>2025-07-28T00:00:00+00:00</published><updated>2025-07-28T00:00:00+00:00</updated><id>https://bkell-dog.github.io/folio/blog/2025/ESP32-CAM-Home-Security-Cameras</id><content type="html" xml:base="https://bkell-dog.github.io/folio/blog/2025/ESP32-CAM-Home-Security-Cameras/"><![CDATA[<p>I wanted a home camera security system, that I made from scratch and with came with total control. For this, I searched for a cheap camera module and came upon the ESP32 CAM—a device with not much more computing power than an Arduino, so I was at first skeptical, but which has been shown by others to be able to stream video over HTTP. I bought a pack of four ESP32 CAM boards from <a href="https://www.amazon.com/dp/B09265G5Z4">Amazon</a> for less than $30.</p> <p>The ESP32 CAM is a board with an ESP32 processor on the back, and a micro SD card slot on the front along with a port for the detachable camera component to snap in. By itself the board cannot be flashed with a USB, but the one I bought, and most ones you can buy, come with a basic USB-to-TTL converter board connected to the CAM’s pins, which is shown as the bottom board below. That converter board allows you to directly flash the CAM with whatever code you come up with, and my boards with with a USB 2.0 A-to-MicroB cable. Using the converter and cable as a power source instead of needing a breadboard is an added bonus.</p> <p><img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/01/ESP32-CAM-MB-Micro-USB-Programmer-CH340G-Serial-Chip.jpg?w=1280&amp;quality=100&amp;strip=all&amp;ssl=1" alt="ESP32 CAM"/></p> <p>Like all ESP32s, this board is flashed from the Arduino IDE, you just have to select the port that your ESP CAM is plugged into, and specify the board as ESP32-CAM or AI THINKER ESP32-CAM, or something of the sort.</p> <p>To start, I wanted to flash the onboard LED as a sanity test. I found <a href="https://lastminuteengineers.com/getting-started-with-esp32-cam/">this script</a> to do that:</p> <pre><code class="language-C++">int flashPin = 4;
+
+void setup() {
+    pinMode(flashPin, OUTPUT);
+}
+
+void loop() {
+    digitalWrite(flashPin, HIGH);
+    delay(1000);
+    digitalWrite(flashPin, LOW);
+    delay(1000);
+}
+</code></pre> <p>That was a simple script and worked easy enough; the onboard LED is extremely bright. Next, since I hadn’t done much with ESP32s before and wanted to remind myself, a <a href="https://deepbluembedded.com/esp32-connect-to-wifi-network-arduino/">script</a> to scan all available WiFi networks and print out some basic data about each.</p> <pre><code class="language-C++">#include "WiFi.h"
+
+void setup()
+{
+    Serial.begin(115200);
+    // Set WiFi to station mode and disconnect from an AP if it was previously connected.
+    WiFi.mode(WIFI_STA);
+    WiFi.disconnect();
+    delay(100);
+    Serial.println("Setup done");
+}
+
+void loop()
+{
+    Serial.println("Scan start");
     
-      Check your inbox to confirm your subscription.
-    You are already subscribed to our newsletter.
-    You can also subscribe with a
-    different email address
+    // WiFi.scanNetworks will return the number of networks found.
+    int n = WiFi.scanNetworks();
+    Serial.println("Scan done");
+    if (n == 0) {
+        Serial.println("no networks found");
+    } else {
+        Serial.print(n);
+        Serial.println(" networks found");
+        Serial.println("Nr | SSID                             | RSSI | CH | Encryption");
+        
+        for (int i = 0; i &lt; n; ++i) {
+            // Print SSID and RSSI for each network found
+            Serial.printf("%2d",i + 1);
+            Serial.print(" | ");
+            Serial.printf("%-32.32s", WiFi.SSID(i).c_str());
+            Serial.print(" | ");
+            Serial.printf("%4d", WiFi.RSSI(i));
+            Serial.print(" | ");
+            Serial.printf("%2d", WiFi.channel(i));
+            Serial.print(" | ");
+            
+            switch (WiFi.encryptionType(i))
+            {
+            case WIFI_AUTH_OPEN:
+                Serial.print("open");
+                break;
+            case WIFI_AUTH_WEP:
+                Serial.print("WEP");
+                break;
+            case WIFI_AUTH_WPA_PSK:
+                Serial.print("WPA");
+                break;
+            case WIFI_AUTH_WPA2_PSK:
+                Serial.print("WPA2");
+                break;
+            case WIFI_AUTH_WPA_WPA2_PSK:
+                Serial.print("WPA+WPA2");
+                break;
+            case WIFI_AUTH_WPA2_ENTERPRISE:
+                Serial.print("WPA2-EAP");
+                break;
+            case WIFI_AUTH_WPA3_PSK:
+                Serial.print("WPA3");
+                break;
+            case WIFI_AUTH_WPA2_WPA3_PSK:
+                Serial.print("WPA2+WPA3");
+                break;
+            case WIFI_AUTH_WAPI_PSK:
+                Serial.print("WAPI");
+                break;
+            default:
+                Serial.print("unknown");
+            }
+            Serial.println();
+
+            delay(10);
+        }
+    }
+
+    Serial.println("");
+    // Delete the scan result to free memory for code below.
+    WiFi.scanDelete();
+    // Wait a bit before scanning again.
+    delay(5000);
+}
+</code></pre> <p>This script showed me what I already knew, that my Wifi was active and accessible. So after that, <a href="https://deepbluembedded.com/esp32-connect-to-wifi-network-arduino/">next</a> was to actually connect to the WiFi network.</p> <pre><code class="language-C">#include &lt;WiFi.h&gt;
+
+// Replace with your own network credentials
+const char* ssid = "yourNetworkSSID";
+const char* password = "yourNetworkPassword";
+
+void setup(){
+    Serial.begin(115200);
+    WiFi.mode(WIFI_STA);
+    WiFi.begin(ssid, password);
+    Serial.println("\nConnecting to WiFi Network ..");
+
+    while(WiFi.status() != WL_CONNECTED){
+        Serial.print(".");
+        delay(100);
+    }
     
-    .
-    
-  Let’s stay in touch. Get the latest news from Google in your inbox.
-          Follow Us
-</code></pre></div></div>]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://bkell-dog.github.io/folio/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog"/><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://bkell-dog.github.io/folio/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://bkell-dog.github.io/folio/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[<h3>External Posts on Your al-folio Blog</h3> <p>If you prefer publishing blog posts on medium.com or other external sources, starting version v0.5.0, <a href="https://github.com/alshedivat/al-folio">al-folio</a> lets you to display your external posts in the blog feed of your website! 🎉🎉</p> <p>Configuring external sources of super simple. After upgrading to v0.5.0, just add the following section to your _config.yml:</p> <pre>external_sources:<br />  - name: medium.com  # name of the source (arbitrary string)<br />    rss_url: <a href="https://medium.com/@al-folio/feed">https://medium.com/@&lt;your-medium-username&gt;/feed</a></pre> <p>The example above adds your medium.com blog post feed as an external source. But you can add arbitrary RSS feeds as sources.</p> <p>Any questions or suggestions? 👉 Start <a href="https://github.com/alshedivat/al-folio/discussions">a discussion on GitHub</a>!</p> <p><img src="https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=b60a1d241a0a" width="1" height="1" alt=""/></p>]]></content><author><name></name></author></entry></feed>
+    Serial.println("\nConnected to the WiFi network");
+    Serial.print("Local ESP32 IP: ");
+    Serial.println(WiFi.localIP());
+}
+
+void loop(){
+    // Do Nothing
+}
+</code></pre> <p>So my ESP32 CAM was connecting to my local network. Now I want to sanity test the camera capability. My design was to take a photo, and serve it via HTTP on whatever IP address the ESP32 CAM was allocated to on my local network, so that I would be able to go to my browser, type in the IP, and see a picture that the CAM took. So Step #1, create an arbitrary HTML page and serve it at an IP over HTTP:</p> <pre><code class="language-C++">// Basic ESP32-CAM HTTP Server
+
+#include &lt;WiFi.h&gt;
+#include &lt;WebServer.h&gt;
+
+// Replace with your network credentials
+const char* ssid     = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
+
+WebServer server(80);
+
+// HTML page: a blank page with a black square in the middle.
+const char* htmlResponse = R"rawliteral(
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;ESP32-CAM&lt;/title&gt;
+  &lt;style&gt;
+    body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+    .placeholder { width: 320px; height: 240px; background-color: black; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div class="placeholder"&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+)rawliteral";
+
+// The client will access the root directory of the IP address
+void handleRoot() {
+  server.send(200, "text/html", htmlResponse);
+}
+
+void setup() {
+  Serial.begin(115200);
+  delay(1000);
+
+  // Connect to Wi-Fi
+  WiFi.begin(ssid, password);
+  Serial.print("Connecting to WiFi");
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print('.');
+  }
+  Serial.println();
+  Serial.print("Connected! IP address: ");
+  Serial.println(WiFi.localIP());
+
+  // Start the server
+  server.on("/", handleRoot);
+  server.begin();
+  Serial.println("HTTP server started");
+}
+
+void loop() {
+  server.handleClient();
+}
+
+</code></pre> <p>In that example, I created a black square in the center of the screen as a placeholder for what would later be a video stream. This was the result, located at http://10.0.0.20:</p> <p><img src="./log_files/assets/ESP32CAM_BlackSquareSite.PNG" alt="Sample HTML Page with Black Square"/></p> <p>Then, Step #2 was to take a picture or video stream and serve that as part of the HTML page, but in trying to send a single JPG over HTTP, I found it was just easier to send a stream of them and embed that stream into my HTML page where the black square is. So here we have a working HTTP server on the local wifi network, which serves a stream of JPGs showing whatever the ESP32 CAM is looking at:</p> <pre><code class="language-C++">// ESP32-CAM HTTP Server Streaming
+
+#include "esp_camera.h"
+#include &lt;WiFi.h&gt;
+#include &lt;WebServer.h&gt;
+
+// Replace with your network credentials
+const char* ssid     = "yourNetworkSSID";
+const char* password = "yourNetworkPassword";
+
+WebServer server(80);
+
+// Camera configuration (AI Thinker module)
+#define PWDN_GPIO_NUM     32
+#define RESET_GPIO_NUM    -1
+#define XCLK_GPIO_NUM      0
+#define SIOD_GPIO_NUM     26
+#define SIOC_GPIO_NUM     27
+#define Y9_GPIO_NUM       35
+#define Y8_GPIO_NUM       34
+#define Y7_GPIO_NUM       39
+#define Y6_GPIO_NUM       36
+#define Y5_GPIO_NUM       21
+#define Y4_GPIO_NUM       19
+#define Y3_GPIO_NUM       18
+#define Y2_GPIO_NUM        5
+#define VSYNC_GPIO_NUM    25
+#define HREF_GPIO_NUM     23
+#define PCLK_GPIO_NUM     22
+
+// HTML for root page with embedded stream
+const char* htmlRoot = R"rawliteral(
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;ESP32-CAM Stream&lt;/title&gt;
+  &lt;style&gt;
+    body { margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; background: #222; }
+    img { max-width: 100%; height: auto; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;img src="/stream" alt="Camera Stream"&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+)rawliteral";
+
+// Serve root page
+void handleRoot() {
+  server.send(200, "text/html", htmlRoot);
+}
+
+// MJPEG stream handler
+void handleJPGStream() {
+  WiFiClient client = server.client();
+  String header = "HTTP/1.1 200 OK\r\n";
+  header += "Content-Type: multipart/x-mixed-replace; boundary=frame\r\n\r\n";
+  server.sendContent(header);
+
+  // This loop runs until client disconnects. Ergo, one client per camera at a time.
+  while (client.connected()) {
+    // Capture frame buffer
+    camera_fb_t *fb = esp_camera_fb_get();
+    // Check for failed buffer capture. Can occur if memory is in short supply.
+    if (!fb) {
+      Serial.println("Camera capture failed");
+      break;
+    }
+
+    String part = "--frame\r\n";
+    part += "Content-Type: image/jpeg\r\n";
+    part += "Content-Length: " + String(fb-&gt;len) + "\r\n\r\n";
+    server.sendContent(part);
+
+    // Write frame directly from RAM to client over TCP connection. This means we don't have to create frame copies in RAM or SD card, maximizes efficiency.
+    client.write(fb-&gt;buf, fb-&gt;len);
+    server.sendContent("\r\n");
+    // Release the memory taken by the frame buffer.
+    esp_camera_fb_return(fb);
+  }
+}
+
+void setup() {
+  Serial.begin(115200);
+  delay(1000);
+
+  // Initialize camera variables
+  camera_config_t config;
+  config.ledc_channel = LEDC_CHANNEL_0;
+  config.ledc_timer   = LEDC_TIMER_0;
+  config.pin_d0       = Y2_GPIO_NUM;
+  config.pin_d1       = Y3_GPIO_NUM;
+  config.pin_d2       = Y4_GPIO_NUM;
+  config.pin_d3       = Y5_GPIO_NUM;
+  config.pin_d4       = Y6_GPIO_NUM;
+  config.pin_d5       = Y7_GPIO_NUM;
+  config.pin_d6       = Y8_GPIO_NUM;
+  config.pin_d7       = Y9_GPIO_NUM;
+  config.pin_xclk     = XCLK_GPIO_NUM;
+  config.pin_pclk     = PCLK_GPIO_NUM;
+  config.pin_vsync    = VSYNC_GPIO_NUM;
+  config.pin_href     = HREF_GPIO_NUM;
+  config.pin_sscb_sda = SIOD_GPIO_NUM;
+  config.pin_sscb_scl = SIOC_GPIO_NUM;
+  config.pin_pwdn     = PWDN_GPIO_NUM;
+  config.pin_reset    = RESET_GPIO_NUM;
+  config.xclk_freq_hz = 20000000;
+  config.pixel_format = PIXFORMAT_JPEG;
+  config.frame_size   = FRAMESIZE_VGA;
+  config.jpeg_quality = 12;
+  config.fb_count     = 1;
+
+  if (esp_camera_init(&amp;config) != ESP_OK) {
+    Serial.println("Camera init failed");
+    while (true);
+  }
+
+  // Connect to Wi-Fi
+  WiFi.begin(ssid, password);
+  Serial.print("Connecting to WiFi");
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print('.');
+  }
+
+  Serial.println();
+  Serial.print("Connected! IP address: ");
+  Serial.println(WiFi.localIP());
+
+  // Setup HTTP routes
+  // The root directory serves the HTML above.
+  server.on("/", HTTP_GET, handleRoot);
+  // The /stream directory serves a stream of JPGs. It is called from within the HTML page above.
+  server.on("/stream", HTTP_GET, handleJPGStream);
+  server.onNotFound([](){ server.send(404, "text/plain", "Not Found"); });
+  server.begin();
+  Serial.println("HTTP server started");
+}
+
+void loop() {
+  server.handleClient();
+}
+</code></pre> <p>There you have it. The video is blurry and can lag at times, but it’s a homemade security cam system made in under an hour of work. Next I’ll mount it on my wall, and maybe write a server system running on another computer that collects all the data streams at once from multiple cameras and combines them into a single security console.</p>]]></content><author><name>Will Kelly</name></author><category term="Electronics,"/><category term="Microcontrollers,"/><category term="ESP32"/><summary type="html"><![CDATA[I wanted a home camera security system, that I made from scratch and with came with total control. For this, I searched for a cheap camera module and came upon the ESP32 CAM—a device with not much more computing power than an Arduino, so I was at first skeptical, but which has been shown by others to be able to stream video over HTTP. I bought a pack of four ESP32 CAM boards from Amazon for less than $30.]]></summary></entry><entry><title type="html">Rewriting Hexo’s RSS Renderer</title><link href="https://bkell-dog.github.io/folio/blog/2025/Rewriting-Hexo's-RSS-Renderer/" rel="alternate" type="text/html" title="Rewriting Hexo’s RSS Renderer"/><published>2025-05-03T00:00:00+00:00</published><updated>2025-05-03T00:00:00+00:00</updated><id>https://bkell-dog.github.io/folio/blog/2025/Rewriting-Hexo&apos;s-RSS-Renderer</id><content type="html" xml:base="https://bkell-dog.github.io/folio/blog/2025/Rewriting-Hexo&apos;s-RSS-Renderer/"><![CDATA[<h3 id="background">Background</h3> <p>I have a blog on the side which is anonymous, which I host using Hexo. I recently downloaded an RSS reader to read all the Substacks I like, and added my own site’s; but I noticed that my RSS was buggy, with still-encoded HTML text, and without header images. Clearly the default Hexo RSS renderer package was buggy and not rubust, so it was time for me to take a personal look at it.</p> <p>The default Hexo RSS renderer is an npm package called <a href="https://github.com/sergeyzwezdin/hexo-feed">hexo-feed</a>, inside of which most of the leg work is done by a file called base.js, given here:</p> <pre><code class="language-JS">const { magenta } = require('chalk');
+
+const path = require('path');
+
+const generateFeed = (render, type, posts, tags, categories, config, renderOptions, context, output, order_by, limit, helpers, log) =&gt; {
+    log.debug(`Generating ${type}: %s`, magenta(output));
+
+    const publishedPosts = posts
+        .filter((post) =&gt; post.draft !== true)
+        .filter((post) =&gt; post.published === undefined || post.published === true);
+
+    const lastPublishedPost = publishedPosts.sort('-date').first();
+    const lastPublishedPostDate = lastPublishedPost ? lastPublishedPost.date : helpers.moment();
+
+    let postsToRender = publishedPosts.sort(order_by || config.feed.order_by || '-date');
+
+    if (limit) {
+        postsToRender = postsToRender.limit(limit);
+    }
+
+    return render
+        .render(renderOptions, {
+            ...helpers,
+            ...{
+                tag: undefined,
+                category: undefined,
+                ...context
+            },
+            lastBuildDate: lastPublishedPostDate,
+            posts: postsToRender.toArray(),
+            tags: tags.toArray(),
+            categories: categories.toArray(),
+            config: config
+        })
+        .then((content) =&gt; {
+            log.debug(`${type} generated: %s`, magenta(output));
+
+            return [
+                {
+                    path: output,
+                    data: content
+                }
+            ];
+        });
+};
+
+const baseGenerator = (type, hexo, generatorConfig, packageTemplateName, { posts, tags, categories }) =&gt; {
+    const { config, render, log } = hexo;
+    const { template, output, order_by, limit } = config.feed[generatorConfig];
+    const { tag_dir, category_dir } = config.feed;
+
+    const isTagGeneratingEnabled = Boolean(tag_dir);
+    const isCategoryGeneratingEnabled = Boolean(category_dir);
+
+    const helpers = Object.keys(hexo.extend.helper.store).reduce((result, name) =&gt; {
+        result[name] = hexo.extend.helper.get(name).bind({ ...hexo, page: {} });
+        return result;
+    }, {});
+
+    const itemCount = limit || config.feed.limit;
+
+    const renderOptions = template ? { path: template } : { path: path.resolve(__dirname, '../templates', packageTemplateName) };
+
+    const postsByTag = isTagGeneratingEnabled
+        ? tags
+              .toArray()
+              .map(({ name }) =&gt;
+                  String(name || '')
+                      .trim()
+                      .toLowerCase()
+              )
+              .map((tagName) =&gt; ({
+                  type: `${type} (tag: ${tagName})`,
+                  context: {
+                      tag: tagName
+                  },
+                  posts: posts.filter(
+                      (post) =&gt;
+                          post.tags
+                              .toArray()
+                              .map(({ name }) =&gt;
+                                  String(name || '')
+                                      .trim()
+                                      .toLowerCase()
+                              )
+                              .indexOf(tagName) !== -1
+                  ),
+                  output: path.join(tag_dir, tagName, output)
+              }))
+        : [];
+
+    const postsByCategory = isCategoryGeneratingEnabled
+        ? categories
+              .toArray()
+              .map(({ name }) =&gt;
+                  String(name || '')
+                      .trim()
+                      .toLowerCase()
+              )
+              .map((categoryName) =&gt; ({
+                  type: `${type} (category: ${categoryName})`,
+                  context: {
+                      category: categoryName
+                  },
+                  posts: posts.filter(
+                      (post) =&gt;
+                          post.categories
+                              .toArray()
+                              .map(({ name }) =&gt;
+                                  String(name || '')
+                                      .trim()
+                                      .toLowerCase()
+                              )
+                              .indexOf(categoryName) !== -1
+                  ),
+                  output: path.join(category_dir, categoryName, output)
+              }))
+        : [];
+
+    return Promise.all([
+        generateFeed(render, type, posts, tags, categories, config, renderOptions, {}, output, order_by, itemCount, helpers, log),
+        ...postsByTag.map(({ type, context, posts, output }) =&gt;
+            generateFeed(render, type, posts, tags, categories, config, renderOptions, context, output, order_by, itemCount, helpers, log)
+        ),
+        ...postsByCategory.map(({ type, context, posts, output }) =&gt;
+            generateFeed(render, type, posts, tags, categories, config, renderOptions, context, output, order_by, itemCount, helpers, log)
+        )
+    ]).then((results) =&gt; results.reduce((result, current) =&gt; [...result, ...current], []));
+};
+
+module.exports = { baseGenerator };
+</code></pre> <h3 id="problem-1-escaped-html">Problem 1: Escaped HTML</h3> <p>The first problem was HTML-escaped text. In the body of the text, I would see lines like this at the beginning of the file:</p> <blockquote> <p>&lt;link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"&gt;&lt;script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"&gt;&lt;/script&gt;&lt;p&gt;&lt;img src="/image-url.jpg" alt="Image title"&gt;&lt;/p&gt; &lt;p&gt; Article content article content article content …</p> </blockquote> <p>Obviously “&lt;” is an encoded version of the Less Than symbol, and “&gt;” is a Greater Than, showing the &lt;brackets&gt; surrounding HTML tags. “"” is obviously either a single or double quotation mark. There were HTML-escaped characters left in the output, which is often done by browsers when transferring HTML characters for reasons of code safety to prevent XSS attacks, but which for my purposes was ruining the output of my article. What’s worse is that the entire article content was escaped like this, which a smart reader app would be able to parse, but which might confuse a dumb one.</p> <p>The solution was annoyingly simple, even though I first spent time tracing the HTML escaping process through the code of base.js: all RSS data was eventually fitted into a template that was hardcoded.</p> <pre><code class="language-rss.ejs">&lt;?xml version="1.0"?&gt;
+&lt;rss version="2.0"&gt;
+    &lt;channel&gt;
+        &lt;title&gt;&lt;%= config.title %&gt;&lt;%= tag ? ` • Posts by "${tag}" tag` : '' %&gt;&lt;%= category ? ` • Posts by "${category}" category` : '' %&gt;&lt;/title&gt;
+        &lt;description&gt;&lt;%= config.description %&gt;&lt;/description&gt;
+        &lt;language&gt;&lt;%= config.language %&gt;&lt;/language&gt;
+        &lt;pubDate&gt;&lt;%= moment(lastBuildDate).locale('en').format('ddd, DD MMM YYYY HH:mm:ss ZZ') %&gt;&lt;/pubDate&gt;
+        &lt;lastBuildDate&gt;&lt;%= moment(lastBuildDate).locale('en').format('ddd, DD MMM YYYY HH:mm:ss ZZ') %&gt;&lt;/lastBuildDate&gt;
+        &lt;%_ for (const { name } of (tags || [])) { _%&gt;
+        &lt;category&gt;&lt;%= name %&gt;&lt;/category&gt;
+        &lt;%_ } _%&gt;
+        &lt;%_ for (const post of posts) { _%&gt;
+        &lt;item&gt;
+            &lt;guid isPermalink="true"&gt;&lt;%= post.permalink %&gt;&lt;/guid&gt;
+            &lt;title&gt;&lt;%= post.title %&gt;&lt;/title&gt;
+            &lt;link&gt;&lt;%= post.permalink %&gt;&lt;/link&gt;
+            &lt;%_ for (const tag of (post.tags ? post.tags.toArray() : [])) { _%&gt;
+            &lt;category&gt;&lt;%= tag.name %&gt;&lt;/category&gt;
+            &lt;%_ } _%&gt;
+            &lt;pubDate&gt;&lt;%= moment(post.date).locale('en').format('ddd, DD MMM YYYY HH:mm:ss ZZ') %&gt;&lt;/pubDate&gt;
+            &lt;description&gt;&lt;![CDATA[ &lt;%= post.content %&gt; ]]&gt;&lt;/description&gt;
+        &lt;/item&gt;
+        &lt;%_ } _%&gt;
+    &lt;/channel&gt;
+&lt;/rss&gt;
+</code></pre> <p>You’ll notice this isn’t regular XML—it’s EJS, a form of XML but where anything inside of a &lt;% %&gt; tag pair is run as Javascript. My solution was found at the fifth-to-last line, where it says &lt;%= post.content %&gt;. In EJS, you have three ways to begin a line: with &lt;%, &lt;%-, or &lt;%=.</p> <p>&lt;% runs the JS inside, with no output. &lt;%- runs the JS, tells EJS to render the output as <strong>unescaped</strong> HTML. &lt;%= runs the JS, tells EJS to render the output as <strong>escaped</strong> HTML.</p> <p>My lines of <strong>escaped</strong> HTML could be solved by <strong>unescaping</strong> them, i.e. changing the equals sign in that one line to a dash.</p> <blockquote> <p>&lt;%= post.content %&gt; —&gt; &lt;%- post.content %&gt;</p> </blockquote> <h3 id="problem-2-html-in-my-article">Problem 2: HTML in my Article</h3> <p>Why was there HTML in my article to begin with? One tag was for the header image that I wanted to keep there anyway, but there was also a tag for the stylesheet and for a script? Where did those come from?</p> <p>I could’ve found a very involved solution, but instead I chose to put in a quick fix. I would manually remove any HTML tags I found using a RegEx, based on a list of tags I would provide. So the &lt;img … &gt; tag would stay in, but the &lt;link … &gt; tag would be removed. I wrote this snippet:</p> <pre><code class="language-JS">postsToRender.forEach(post =&gt; {
+	// This is a filter to remove stray HTML tags that made their way into the post content.
+	const blockedTags = ['script', 'link'];
+	const tagPattern = new RegExp(
+	`&lt;(?:${blockedTags.join('|')})\\b[^&gt;]*&gt;(?:[^]*?&lt;\\/\\s*(?:${blockedTags.join('|')})\\s*&gt;|)`,
+	'gi'
+	);
+	post.content = post.content.replace(tagPattern, '');
+	});
+</code></pre> <p>I put this code in the “preprocessing” section of base.js, after the if (limit) statement. This deleted every &lt;script&gt; and &lt;\link&gt; tag in the article body. If I ever want to have a script in the middle of my article, or put in an XML link tag, then I’ll have another problem to solve later, but for now this works to my satisfaction.</p> <h3 id="problem-3-i-want-a-header-image">Problem 3: I Want a Header Image</h3> <p>Many RSS readers show a header image, not based on any image located in the article body, but based on an XML &lt;enclosure&gt; tag which specifies the location of a piece of media associated with the article. My default Hexo reader didn’t account for this. I also didn’t want to manually specify an image in the post’s metadata. I wanted to fetch the first image that appears in the article body and use that as my enclosure image.</p> <p>I could do this by adding a new metadata element called <em>enclosure</em> to the JS <em>post</em> object, which is a JSON. First I fetch the post content, then I scan it with a regex until I find a &lt;img&gt; tag, and if found, I take the image’s URL and store it in the post’s metadata along with the image’s type.</p> <pre><code class="language-JS">postsToRender.forEach(post =&gt; {
+	// This section will extract the first image found in the post and add it as an &lt;enclosure&gt; tag to the RSS item.
+	const content = post.content || '';
+	
+	// Extract first image
+	const imgMatch = content.match(/&lt;img[^&gt;]+src=["']([^"']+)["'][^&gt;]*&gt;/i);
+	const imageURL = imgMatch ? imgMatch[1] : null;
+	
+	if (imageURL) {
+		const imageType = imageURL.endsWith('.png') ? 'image/png' : 'image/jpeg';
+		post.enclosure = {
+			url: config.url + imageURL,
+			type: imageType
+		};
+	}
+
+	// HTML Filter from Problem 2 here
+});
+</code></pre> <p>Then I had to return to <strong>rss.ejs</strong>, the template, and add this under the &lt;item&gt; tag:</p> <pre><code class="language-XML">&lt;% if (post.enclosure) { %&gt;
+&lt;enclosure url="&lt;%= post.enclosure.url %&gt;" length="0" type="&lt;%= post.enclosure.type %&gt;" /&gt;
+&lt;% } %&gt;
+</code></pre> <p>This will first check if we have enclosure metadata, and if so, create an enclosure tag using the URL we have. (Note that the image length is irrelevant, but the “length” field is specified as <em>required</em> in the <a href="https://www.rssboard.org/rss-specification#ltenclosuregtSubelementOfLtitemgt">RSS 2.0 standard</a>, so I left it in).</p> <h3 id="problem-4-what-is-going-on-with-the-rss-tags">Problem 4: What is Going On with the RSS Tags?</h3> <p>Since I wanted to look up the <a href="https://www.rssboard.org/rss-specification">RSS Standard</a> to solve Problem 3, I looked up the tags that are supposed to be used for an RSS feed, and realized that my entire article was being stored in the &lt;description&gt; tag, obviously not the place for the entire work’s content. But RSS 2.0 specifies no location for the content to go, like a &lt;content&gt; tag. How strange! In RSS 1.0, there was a <a href="https://web.resource.org/rss/1.0/modules/content/">Content Module</a> that specified a common tag to place your content under, &lt;content:encoded&gt;. Everybody still uses this RSS 1.0 standard I guess.</p> <p>I’ll also note that this Content Module standard requires that all content either be HTML character-escaped, or CDATA-escaped (i.e. wrapped with a &lt;![CDATA[ … ]] prefix), and the HTML-escaping issue of Problem 1 was seemingly caused by this RSS renderer <strong><em>escaping it both ways at once</em></strong>. I removed the HTML-escaping and left the CDATA.</p> <p>My RSS XML was also missing an &lt;image&gt; tag at the channel level, which takes this format:</p> <pre><code class="language-XML">&lt;image&gt;
+    &lt;url&gt;https://mywebsite.com/assets/favicon.png&lt;/url&gt;
+    &lt;title&gt;Site Title&lt;/title&gt;
+    &lt;link&gt;https://mywebsite.com&lt;/link&gt;
+&lt;/image&gt;
+</code></pre> <p>Now that the &lt;description&gt; tag was freed up, I could also pull a description value from each post’s metadata if it was there. These I would have to enter manually with each new post. So in all, this was my final rss.ejs file (note the image tag under <em>channel</em>, and that post.content is now under content:encoded):</p> <pre><code class="language-rss.ejs">&lt;?xml version="1.0"?&gt;
+&lt;rss version="2.0"&gt;
+    &lt;channel&gt;
+        &lt;title&gt;&lt;%= config.title %&gt;&lt;%= tag ? ` • Posts by "${tag}" tag` : '' %&gt;&lt;%= category ? ` • Posts by "${category}" category` : '' %&gt;&lt;/title&gt;
+        &lt;link&gt;&lt;%- config.url %&gt;&lt;/link&gt;
+        &lt;description&gt;&lt;%= config.description %&gt;&lt;/description&gt;
+        &lt;image&gt;
+            &lt;url&gt;&lt;%= config.url + config.favicon %&gt;&lt;/url&gt;
+            &lt;title&gt;&lt;%= config.title %&gt;&lt;/title&gt;
+            &lt;link&gt;&lt;%- config.url %&gt;&lt;/link&gt;
+        &lt;/image&gt;
+        &lt;language&gt;&lt;%= config.language %&gt;&lt;/language&gt;
+        &lt;pubDate&gt;&lt;%= moment(lastBuildDate).locale('en').format('ddd, DD MMM YYYY HH:mm:ss ZZ') %&gt;&lt;/pubDate&gt;
+        &lt;lastBuildDate&gt;&lt;%= moment(lastBuildDate).locale('en').format('ddd, DD MMM YYYY HH:mm:ss ZZ') %&gt;&lt;/lastBuildDate&gt;
+        &lt;%_ for (const { name } of (tags || [])) { _%&gt;
+        &lt;category&gt;&lt;%= name %&gt;&lt;/category&gt;
+        &lt;%_ } _%&gt;
+        &lt;%_ for (const post of posts) { _%&gt;
+        &lt;item&gt;
+            &lt;guid isPermalink="true"&gt;&lt;%= post.permalink %&gt;&lt;/guid&gt;
+            &lt;title&gt;&lt;%= post.title %&gt;&lt;/title&gt;
+            &lt;description&gt;&lt;%= post.description %&gt;&lt;/description&gt;
+            &lt;creator&gt;&lt;%= post.author %&gt;&lt;/description&gt;
+            &lt;link&gt;&lt;%= post.permalink %&gt;&lt;/link&gt;
+            &lt;%_ for (const tag of (post.tags ? post.tags.toArray() : [])) { _%&gt;
+            &lt;category&gt;&lt;%= tag.name %&gt;&lt;/category&gt;
+            &lt;%_ } _%&gt;
+            &lt;pubDate&gt;&lt;%= moment(post.date).locale('en').format('ddd, DD MMM YYYY HH:mm:ss ZZ') %&gt;&lt;/pubDate&gt;
+            &lt;% if (post.enclosure) { %&gt;
+            &lt;enclosure url="&lt;%= post.enclosure.url %&gt;" length="0" type="&lt;%= post.enclosure.type %&gt;" /&gt;
+            &lt;% } %&gt;
+            &lt;content:encoded&gt;&lt;![CDATA[ &lt;%- post.content %&gt; ]]&gt;&lt;/content:encoded&gt;
+        &lt;/item&gt;
+        &lt;%_ } _%&gt;
+    &lt;/channel&gt;
+&lt;/rss&gt;
+</code></pre> <h3 id="problems-solved">Problems Solved</h3> <p>It does what I want, for now, and i can control my RSS content more closely. I don’t use Atom or a JSON reader, so I hope those feeds aren’t in too bad a shape either.</p>]]></content><author><name>Will Kelly</name></author><category term="Web"/><summary type="html"><![CDATA[Background]]></summary></entry><entry><title type="html">DFPlayer Mini UART Control</title><link href="https://bkell-dog.github.io/folio/blog/2025/DFPlayer-Mini-UART-Control/" rel="alternate" type="text/html" title="DFPlayer Mini UART Control"/><published>2025-03-31T00:00:00+00:00</published><updated>2025-03-31T00:00:00+00:00</updated><id>https://bkell-dog.github.io/folio/blog/2025/DFPlayer-Mini-UART-Control</id><content type="html" xml:base="https://bkell-dog.github.io/folio/blog/2025/DFPlayer-Mini-UART-Control/"><![CDATA[<p>This post is a companion to <a href="https://bkelldog.neocities.org/log/post.html?file=.%2Flog_files%2FKT0803L%20I2C%20Control%20-%20Part%201%20-%20Basic%20I2C.md">KT0803L I²C Control - Part 1 - Basic I²C</a>, in which I go over basic control of the KT0803L IC using I²C from an Arduino Uno. I wired the Uno to both the DFPlayer Mini module and the KT0803L, since the KT is controlled over I²C and the DFPlayer over UART.</p> <p>First I will wire the KT0803L and the DFPlayer together (i.e. DFplayer output pins (i.e. pin 4: DAC_R and pin 5: DAC_L) to KT0803L input pins (i.e. pin 7: INR and pin 6: INL)) and to power; then I will add in the Uno, which will provide power from its 3.3 V pin, and connect the TX/RX on the DFPlayer to pins 11~/10~ on the Uno, and the SDA/SCL on the KT0803L to the A4/A5 pins on the Uno. For now, though, the KT0803L will be inactive.</p> <p><img src="https://i.imgur.com/EcnbO61.png" alt="Arduino x DFPlayer x KT0803L"/></p> <p>To demonstrate basic UART control of the DFPlayer module, I uploaded this script to the Arduino Uno. It uses pins 10 and 11 for UART communication to the DFPlayer, and uses the DFRobotDFPlayerMini library to simplify UART communications. It sets the volume to 25 out of 30, and plays the third song on the SD card. Refer to other manuals on the DFPlayer to understand how to properly structure files on the SD card.</p> <pre><code class="language-C">#include "SoftwareSerial.h"
+
+#include "DFRobotDFPlayerMini.h"
+
+SoftwareSerial mySerial(10, 11); // RX, TX
+DFRobotDFPlayerMini myDFPlayer;
+
+void setup() {
+	 	 Serial.begin(9600);
+	 	 mySerial.begin(9600);
+
+	 	 if (!myDFPlayer.begin(mySerial)) {
+	 	 	 	 Serial.println("DFPlayer Mini not detected!");
+	 	 	 	 while (true);
+	 	 }
+	 	 
+	 	 Serial.println("DFPlayer Mini ready!");
+	 	 myDFPlayer.volume(25); 	// Set volume (0 to 30)
+	 	 Serial.println("Playing File 001.mp3");
+	 	 myDFPlayer.play(); 	 	 	// Play first MP3 file
+}
+
+void loop() {
+}
+</code></pre> <p>The DFPlayer library provides the following commands for controlling the module. There are more, but these are likely all that I will ever need:</p> <pre><code class="language-C">dfplayer.next(); // Play next track
+dfplayer.previous(); // Play previous track
+dfplayer.pause(); // Pause playback
+dfplayer.start(); // Start/resume playback
+dfplayer.volume(15); // Set volume 0-30
+dfplayer.volumeUp(); // Increment volume
+dfplayer.volumeDown(); // Decrement volume
+dfplayer.play(2); // Play song 2
+dfplayer.playFolder(2, 3); // Play song 3 in folder 2.
+dfplayer.loop(4); // Loop song 4
+dfplayer.reset(); // Reset playback at song 001 in folder.
+
+// Find all functions here https://github.com/DFRobot/DFRobotDFPlayerMini/blob/master/DFRobotDFPlayerMini.cpp
+</code></pre> <p>I also added a little test to see if the DFPlayer would start playing one song, wait 5 seconds, then switch to another song at a different volume.</p> <pre><code class="language-C">Serial.println("DFPlayer Mini ready!");
+myDFPlayer.volume(25); // Set volume (0 to 30)
+myDFPlayer.play(3); // Play third MP3 file
+delay(5000);
+myDFPlayer.volume(15);
+myDFPlayer.loop(4);
+</code></pre>]]></content><author><name>Will Kelly</name></author><category term="Electronics,"/><category term="Microcontrollers"/><summary type="html"><![CDATA[This post is a companion to KT0803L I²C Control - Part 1 - Basic I²C, in which I go over basic control of the KT0803L IC using I²C from an Arduino Uno. I wired the Uno to both the DFPlayer Mini module and the KT0803L, since the KT is controlled over I²C and the DFPlayer over UART.]]></summary></entry><entry><title type="html">KT0803L I²C Control - Part 1 - Basic I²C</title><link href="https://bkell-dog.github.io/folio/blog/2025/KT0803L-I2C-Control-Part-1-Basic-I2C/" rel="alternate" type="text/html" title="KT0803L I²C Control - Part 1 - Basic I²C"/><published>2025-03-29T00:00:00+00:00</published><updated>2025-03-29T00:00:00+00:00</updated><id>https://bkell-dog.github.io/folio/blog/2025/KT0803L-I2C-Control-Part-1-Basic-I2C</id><content type="html" xml:base="https://bkell-dog.github.io/folio/blog/2025/KT0803L-I2C-Control-Part-1-Basic-I2C/"><![CDATA[<p>I bought the <a href="https://a.aliexpress.com/_mMrsfy3">KT0803L</a> FM Modulator chip on AliExpress. My plan is to connect this chip to the in sequence with the output of the YX5200 a.k.a. DFPlayer, which reads music files from an SD card and outputs audio. This chip will then, presumably, take in the audio signal and modulate it into an FM signal which can then be transmitted over the air, and received by handheld radios, cars, etc. My ultimate goal is to build a device that can be loaded with a personal music playlist in .mp3 files which will play over your car’s radio whenever your car electronics are turned on.</p> <p>This KT0803L promises to be a lynchpin in that structure, transforming plain audio into FM. But first the chip must be understood, and controlled. Thankfully it accepts I²C commands over a shared device bus, and in the development phase can be controlled by any microcontroller, like an Arduino. In production, I plan to control it with a CH32V003 chip from WCH.</p> <p>The chip registers are defined in the <a href="https://www.alldatasheet.com/datasheet-pdf/view/1134996/ETC2/KT0803L.html">datasheet</a>, and can be read to and written from with I²C. An Arduino is a quick and easy I²C controller (any type, but I choose the Uno) with ample libraries, which I will use for this post just to verify that I²C control works;</p> <p>The following code is probably the most basic form of I²C possible. It scans for the first available device by initiating a transmission at every possible address, until it finds a device that returns an ACK byte which causes the Wire.endTransmission() function to return 0 (i.e. without an error), and returns the address of that device. Then it prints that address to the serial monitor.</p> <pre><code class="language-C">#include &lt;Wire.h&gt;
+
+void setup() {
+	 Serial.begin(9600);
+	 
+	 uint8_t KT0803L_Addr = scanForDevices();
+	 Serial.println(KT0803L_Addr);
+}
+
+void loop() {
+}
+
+uint8_t scanForDevices() {
+	 Wire.begin();
+	 for (uint8_t address = 1; address &lt; 127; address++) {
+	 	 Wire.beginTransmission(address);
+	 	 if (Wire.endTransmission() == 0) {
+	 	 	 Serial.print("Device found at 0x");
+	 	 	 return address;
+	 	 }
+	 }
+}
+</code></pre> <p>When I run this code, I find the KT0803L device at address 0x36 (0x0110110 in binary). When I’ve run this code before with a different KT chip, I found the chip at the location 0x3E (0x0111110 in binary). So despite the <a href="https://d148k72crfmm2d.cloudfront.net/wp-content/uploads/2020/07/KT0803L-KTMicro.pdf">documentation</a> stating that the chip’s default address is 0x0111110, in reality the address can vary, and it would be wise to scan for the devices address at the beginning of each script.</p>]]></content><author><name>Will Kelly</name></author><category term="Electronics,"/><category term="Microcontrollers"/><summary type="html"><![CDATA[I bought the KT0803L FM Modulator chip on AliExpress. My plan is to connect this chip to the in sequence with the output of the YX5200 a.k.a. DFPlayer, which reads music files from an SD card and outputs audio. This chip will then, presumably, take in the audio signal and modulate it into an FM signal which can then be transmitted over the air, and received by handheld radios, cars, etc. My ultimate goal is to build a device that can be loaded with a personal music playlist in .mp3 files which will play over your car’s radio whenever your car electronics are turned on.]]></summary></entry><entry><title type="html">3D Website Design - Part 2 - 3D Models and Rendering</title><link href="https://bkell-dog.github.io/folio/blog/2025/3D-Website-Design-Part-2/" rel="alternate" type="text/html" title="3D Website Design - Part 2 - 3D Models and Rendering"/><published>2025-03-10T00:00:00+00:00</published><updated>2025-03-10T00:00:00+00:00</updated><id>https://bkell-dog.github.io/folio/blog/2025/3D-Website-Design-Part-2</id><content type="html" xml:base="https://bkell-dog.github.io/folio/blog/2025/3D-Website-Design-Part-2/"><![CDATA[<p>Three.js has the potential to import and render pretty much any 3D object from most 3D file formats. OBJ, STL, SVG, and TIFF <a href="https://github.com/mrdoob/three.js/tree/dev/examples%2Fjsm%2Floaders">are supported</a>, to name a few. Most importantly for this article if the glTF filetype, which is used in the <a href="https://threejs.org/docs/#manual/en/introduction/Loading-3D-models">official examples</a>. Then just download a glTF file from an online platform, copy the example code, and you’ll have a basic rendered object. Just try to keep the triangle count low, or the browser will suffer.</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Import from local Three.js folder</span>
+<span class="k">import</span> <span class="p">{</span> <span class="nx">GLTFLoader</span> <span class="p">}</span> <span class="k">from</span> <span class="dl">'</span><span class="s1">./three/examples/jsm/loaders/GLTFLoader.js</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="p">...</span>
+
+<span class="c1">// Load in a model</span>
+<span class="kd">const</span> <span class="nx">loader</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">GLTFLoader</span><span class="p">();</span>
+<span class="nx">loader</span><span class="p">.</span><span class="nf">load</span><span class="p">(</span> <span class="dl">'</span><span class="s1">./example/scene.gltf</span><span class="dl">'</span><span class="p">,</span> <span class="nf">function </span><span class="p">(</span> <span class="nx">gltf</span> <span class="p">)</span> <span class="p">{</span>
+  <span class="nx">scene</span><span class="p">.</span><span class="nf">add</span><span class="p">(</span> <span class="nx">gltf</span><span class="p">.</span><span class="nx">scene</span> <span class="p">);</span>
+<span class="p">},</span> <span class="kc">undefined</span><span class="p">,</span> <span class="nf">function </span><span class="p">(</span> <span class="nx">error</span> <span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span> <span class="nx">error</span> <span class="p">);</span>
+<span class="p">}</span> <span class="p">);</span>
+</code></pre></div></div> <p>In this example, you’ve downloaded (most likely) a .zip file from the internet, extracted it into the base folder of this JS code, and the folder is called ‘example’. Inside most glTF folders I’ve seen is a file called ‘scene.gltf’ that actually contains the 3D model, sometimes next to a subdirectory called ‘textures’, etc. It is also important to know that in Three.js, the gltf object is not a 3D model itself, but an object. <em>gltf.scene</em> contains the 3D model, so if you try to do <em>scene.add( gltf );</em> an error will be thrown.</p> <p>Now, with a basic 3D object, you can manipulate it’s common attributes extremely easily, like so:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Load in a new model</span>
+<span class="kd">const</span> <span class="nx">loader</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">GLTFLoader</span><span class="p">();</span>
+<span class="nx">loader</span><span class="p">.</span><span class="nf">load</span><span class="p">(</span> <span class="dl">'</span><span class="s1">./example2/scene.gltf</span><span class="dl">'</span><span class="p">,</span> <span class="nf">function </span><span class="p">(</span> <span class="nx">gltf</span> <span class="p">)</span> <span class="p">{</span>
+
+  <span class="nx">gltf</span><span class="p">.</span><span class="nx">scene</span><span class="p">.</span><span class="nx">position</span><span class="p">.</span><span class="nf">set</span><span class="p">(</span><span class="cm">/* x = */</span> <span class="mi">15</span><span class="p">,</span> <span class="cm">/* y = */</span> <span class="mi">8</span><span class="p">,</span> <span class="cm">/* z = */</span> <span class="mi">22</span><span class="p">);</span>
+  <span class="nx">gltf</span><span class="p">.</span><span class="nx">scene</span><span class="p">.</span><span class="nx">rotation</span><span class="p">.</span><span class="nf">set</span><span class="p">(</span><span class="cm">/* i = */</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">PI</span><span class="p">,</span> <span class="cm">/* j = */</span> <span class="mf">0.0125</span><span class="p">,</span> <span class="cm">/* k = */</span> <span class="mi">0</span><span class="p">);</span>
+  <span class="nx">gltf</span><span class="p">.</span><span class="nx">scene</span><span class="p">.</span><span class="nx">scale</span><span class="p">.</span><span class="nf">set</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mf">0.25</span><span class="p">);</span> <span class="c1">// Scale x axis by 3, y axis by 6, etc...</span>
+
+  <span class="nx">scene</span><span class="p">.</span><span class="nf">add</span><span class="p">(</span> <span class="nx">gltf</span><span class="p">.</span><span class="nx">scene</span> <span class="p">);</span>
+<span class="p">},</span> <span class="kc">undefined</span><span class="p">,</span> <span class="nf">function </span><span class="p">(</span> <span class="nx">error</span> <span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span> <span class="nx">error</span> <span class="p">);</span>
+<span class="p">}</span> <span class="p">);</span>
+</code></pre></div></div> <p>This will create an object whose center is located at coordinates (15, 8, 22), rotated 180° (π radians) around its x-axis, 0.0125 radians around its y-axis, and 0 rad around its z-axis, and which is stretched on its x- and y-axes by a factor of 3 and 6 respectively, and shrunk on its z-axis by a quarter. <em>Nota bene</em> that, in Three.js, rotation is handled with <a href="https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Introduction_to_Groups_and_Geometries_(Lyons)/01%3A_Preliminaries/1.02%3A_Quaternions">quaternions</a>, and you can access a variable called <em>model.scene.quaternion</em> for any glTF model, which is represented as a 4D vector containing <em>(x, y, z, w)</em>, i.e. the three axis coordinates of the rotation + a scaling factor <em>w</em>.</p> <p>In my scene, I want a skybox and a prebuilt environment, so I add them as follows. The skybox model will naturally be gigantic, and easily cover any other model. On my site I’ve chosen a low-poly mansion as the scene’s backdrop.</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">loader</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">GLTFLoader</span><span class="p">();</span>
+
+<span class="nx">loader</span><span class="p">.</span><span class="nf">load</span><span class="p">(</span> <span class="dl">'</span><span class="s1">./skybox/scene.gltf</span><span class="dl">'</span><span class="p">,</span> <span class="nf">function </span><span class="p">(</span> <span class="nx">gltf</span> <span class="p">)</span> <span class="p">{</span>
+  <span class="nx">scene</span><span class="p">.</span><span class="nf">add</span><span class="p">(</span> <span class="nx">gltf</span><span class="p">.</span><span class="nx">scene</span> <span class="p">);</span>
+<span class="p">},</span> <span class="kc">undefined</span><span class="p">,</span> <span class="nf">function </span><span class="p">(</span> <span class="nx">error</span> <span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span> <span class="nx">error</span> <span class="p">);</span>
+<span class="p">}</span> <span class="p">);</span>
+<span class="nx">loader</span><span class="p">.</span><span class="nf">load</span><span class="p">(</span> <span class="dl">'</span><span class="s1">./mansion/scene.gltf</span><span class="dl">'</span><span class="p">,</span> <span class="nf">function </span><span class="p">(</span> <span class="nx">gltf</span> <span class="p">)</span> <span class="p">{</span>
+  <span class="nx">gltf</span><span class="p">.</span><span class="nx">scene</span><span class="p">.</span><span class="nx">position</span><span class="p">.</span><span class="nf">set</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">15</span><span class="p">);</span>
+  <span class="nx">gltf</span><span class="p">.</span><span class="nx">scene</span><span class="p">.</span><span class="nx">scale</span><span class="p">.</span><span class="nf">set</span><span class="p">(</span><span class="mf">0.0125</span><span class="p">,</span> <span class="mf">0.0125</span><span class="p">,</span> <span class="mf">0.0125</span><span class="p">);</span>
+  <span class="nx">scene</span><span class="p">.</span><span class="nf">add</span><span class="p">(</span> <span class="nx">gltf</span><span class="p">.</span><span class="nx">scene</span> <span class="p">);</span>
+<span class="p">},</span> <span class="kc">undefined</span><span class="p">,</span> <span class="nf">function </span><span class="p">(</span> <span class="nx">error</span> <span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nf">error</span><span class="p">(</span> <span class="nx">error</span> <span class="p">);</span>
+<span class="p">}</span> <span class="p">);</span>
+</code></pre></div></div> <p>I also add two lights, one directional and one ambient, both positioned far above the scene. The directional light will cast shadows and create depth. The isotropic ambient light will make the scene warm and smooth out the harshness of the shadows.</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Create a directional light</span>
+<span class="kd">const</span> <span class="nx">light</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">THREE</span><span class="p">.</span><span class="nc">DirectionalLight</span><span class="p">(</span><span class="mh">0xF0F9FF</span><span class="p">,</span> <span class="mi">5</span><span class="p">);</span>
+<span class="nx">light</span><span class="p">.</span><span class="nx">position</span><span class="p">.</span><span class="nf">set</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">25</span><span class="p">);</span>
+<span class="nx">light</span><span class="p">.</span><span class="nx">castShadow</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+<span class="nx">scene</span><span class="p">.</span><span class="nf">add</span><span class="p">(</span><span class="nx">light</span><span class="p">);</span>
+
+<span class="c1">// Create a global ambient light to soften shadows</span>
+<span class="kd">const</span> <span class="nx">ambLight</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">THREE</span><span class="p">.</span><span class="nc">AmbientLight</span><span class="p">(</span><span class="mh">0xF0F9FF</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+<span class="nx">ambLight</span><span class="p">.</span><span class="nx">position</span><span class="p">.</span><span class="nf">set</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">25</span><span class="p">);</span>
+<span class="nx">scene</span><span class="p">.</span><span class="nf">add</span><span class="p">(</span><span class="nx">ambLight</span><span class="p">);</span>
+</code></pre></div></div>]]></content><author><name>Will Kelly</name></author><category term="Web"/><summary type="html"><![CDATA[Three.js has the potential to import and render pretty much any 3D object from most 3D file formats. OBJ, STL, SVG, and TIFF are supported, to name a few. Most importantly for this article if the glTF filetype, which is used in the official examples. Then just download a glTF file from an online platform, copy the example code, and you’ll have a basic rendered object. Just try to keep the triangle count low, or the browser will suffer.]]></summary></entry><entry><title type="html">3D Website Design - Part 1 - Three.js Setup</title><link href="https://bkell-dog.github.io/folio/blog/2025/3D-Website-Design-Part-1/" rel="alternate" type="text/html" title="3D Website Design - Part 1 - Three.js Setup"/><published>2025-03-09T00:00:00+00:00</published><updated>2025-03-09T00:00:00+00:00</updated><id>https://bkell-dog.github.io/folio/blog/2025/3D-Website-Design-Part-1</id><content type="html" xml:base="https://bkell-dog.github.io/folio/blog/2025/3D-Website-Design-Part-1/"><![CDATA[<p>I had the idea of making a gallery page on my personal site to display all my engineering projects. I wanted the page to be unique, and impressive, and originally the plan was to have icons representing the projects shown on top of pedestals on the page, which would zoom in and out as the user scrolls, as if the user was waling backward and forward through a hall or art gallery showroom, looking at my projects. I tried to make it in pure CSS, and it was hard. Eventually I got the scene to successfully scroll along the z-axis, and have div elements zoom according to their z-index, simulating distance from the viewport. But I couldn’t make the vanishing point on the horizon change from the center of the screen, and I hated how convoluted the code had become. And it was ugly, worst of all.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Sample ugly code for camera rotation
+let lookDirection = cameraLookVector(camera);
+let MOVEMENT_FRONT = new THREE.Vector2(lookDirection.getComponent(0) * speed, lookDirection.getComponent(2) * speed);
+let MOVEMENT_SIDE = new THREE.Vector2(-MOVEMENT_FRONT.y, MOVEMENT_FRONT.x);
+let xComponent = MOVEMENT_FRONT.x * INPUT.y + MOVEMENT_SIDE.x * INPUT.x;
+let zComponent = MOVEMENT_FRONT.y * INPUT.y + MOVEMENT_SIDE.y * INPUT.x;
+camera.position.x = camera.position.x + xComponent;
+camera.position.z = camera.position.z + zComponent;
+</code></pre></div></div> <p>So I scrapped that idea, and discovered the possibility of something more ambitious. Instead of a flat image and z-axis scrolling to simulate walking down a gallery hall, I would instead create a 3D space in CSS that the user could walk through as if in a video game, and my projects would be displayed as objects (and eventually open up rooms that show their usage and progression).</p> <p>First, I wanted to do this in pure CSS as well, for total compatibility with hypothetical older browsers that could be accessing my site. But doing it in pure CSS meant doing the whole thing by hand, like sculpting marble chip-by-chip; so I allowed JS and chose to use the <a href="https://threejs.org/">Three.js</a> library to create and manipulate the 3D scene.</p> <p>Three.js allows developers to easily create 3D objects, including a camera, and manipulate those objects in space. I would know because, without understanding the full capabilities of Three.js, I coded a complicated custom camera rotation and camera movement function based on user input, look direction, and lots of vector algebra, instead of using Three’s builtin .getDirection() and .moveForward()/.moveRight() functions, which does everything automatically. My mistake. I was about to go through the trouble of coding every surface and object in CSS, but deep down I knew that I wouldn’t have the energy to finish a project involving that much brute force effort, and that breaking the rule of pure CSS by introducing Three.js was worth it by far.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// Sample script to create a basic scene with a spinning cube.
+
+// Create the scene
+const scene = new THREE.Scene();
+
+// Create the camera
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+camera.position.z = 5;
+
+// Get the canvas element
+const canvas = document.getElementById('canvas');
+
+// Create the renderer and set the canvas element
+const renderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true });
+renderer.setSize(window.innerWidth, window.innerHeight);
+
+// Create a green cube
+const geometry = new THREE.BoxGeometry();
+const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+const cube = new THREE.Mesh(geometry, material);
+scene.add(cube);
+
+// Create a directional light in the sky
+const light = new THREE.DirectionalLight(0xF0F9FF, 5);
+light.position.set(25, 50, 25);
+scene.add(light);
+
+// Animation loop
+function animate() {
+  requestAnimationFrame(animate);
+
+  // Rotate the cube
+  cube.rotation.x += 0.01;
+  cube.rotation.y += 0.01;
+
+  renderer.render(scene, camera);
+}
+
+animate();
+</code></pre></div></div> <p>I created the scene above, and added in some other features like a wide rotated rectangle as a floor, and a blue sky background. See how much better that is? Three handles object, positioning, animation, and all I have to do is change variables associated to objects either during setup or in the animation loop. This framework will allow me (or you, reader) to create just about any object, or <a href="https://bkelldog.neocities.org/log/post.html?file=.%2Flog_files%2F3D%20Website%20Design%20Part%202.md">model</a>, and interact with it, all from a browser.</p> <p>As for testing the code in a browser, you could just open the HTML file directly, but most browsers today will likely throw you a CORS error, so I downloaded the http-server package <code class="language-plaintext highlighter-rouge">npm install -g http-server</code> and used it to serve webpages as if over the net: <code class="language-plaintext highlighter-rouge">http-server -p 4000</code>. -p specifies the port, and you would find it at http://localhost:4000 (as long as you run the http command from the website’s root folder). This doesn’t solve every problem with testing the page locally, but it solves most.</p> <p>Another good trick I used was deleting every unused file from the Three package folder. So first I imported the Three.js package from npm <code class="language-plaintext highlighter-rouge">npm install three #leave out the -g</code> into the page’s folder, and then deleted from the package every folder and most files which my script didn’t use. It reduced the size of Three from <a href="https://www.npmjs.com/package/three">28.7 MB</a> as of March 2025, to a few kB or maybe a MB. I can always add back in any files as needed (which I do in the <a href="https://bkelldog.neocities.org/log/post.html?file=.%2Flog_files%2F3D%20Website%20Design%20Part%202.md">next log</a> to add in PointerLockControls.js and GLTFLoader.js). It’s good to keep the codebase small.</p> <p>See the next article in this series <a href="https://bkelldog.neocities.org/log/post.html?file=.%2Flog_files%2F3D%20Website%20Design%20Part%202.md">here</a>.</p>]]></content><author><name>Will Kelly</name></author><category term="Web"/><summary type="html"><![CDATA[I had the idea of making a gallery page on my personal site to display all my engineering projects. I wanted the page to be unique, and impressive, and originally the plan was to have icons representing the projects shown on top of pedestals on the page, which would zoom in and out as the user scrolls, as if the user was waling backward and forward through a hall or art gallery showroom, looking at my projects. I tried to make it in pure CSS, and it was hard. Eventually I got the scene to successfully scroll along the z-axis, and have div elements zoom according to their z-index, simulating distance from the viewport. But I couldn’t make the vanishing point on the horizon change from the center of the screen, and I hated how convoluted the code had become. And it was ugly, worst of all.]]></summary></entry><entry><title type="html">The CH32V003 Microcontroller - Part 1 - Setup and Basic Script</title><link href="https://bkell-dog.github.io/folio/blog/2025/CH32V003-Part-1/" rel="alternate" type="text/html" title="The CH32V003 Microcontroller - Part 1 - Setup and Basic Script"/><published>2025-03-05T00:00:00+00:00</published><updated>2025-03-05T00:00:00+00:00</updated><id>https://bkell-dog.github.io/folio/blog/2025/CH32V003-Part-1</id><content type="html" xml:base="https://bkell-dog.github.io/folio/blog/2025/CH32V003-Part-1/"><![CDATA[<p>I was excited to try the new <a href="https://wch-ic.com/products/CH32V003.html">CH32V003</a> microcontroller from <a href="https://wch-ic.com/">WCH</a> out of China. It promises to be a cheap and versatile microcontroller that costs about 10¢ and can be easily flashed and integrated into a PCB project (I plan to use it for I2C logic control), and more impressive is that it’s built on RISC-V architecture. So I bought a number of <a href="https://a.aliexpress.com/_mtjT2L5">bare ICs</a>, as well as this <a href="https://a.aliexpress.com/_mPFYDp9">development board</a>, and the chip must be flashed by the WCH’s <a href="https://a.aliexpress.com/_mNBHMkR">LinkE device</a>.</p> <p>Once the hardware was secured, I also had to install the dedicated MounRiver IDE, which can be hard to find but is available <a href="http://mounriver.com/">here</a>. This is built on Eclipse, but includes some extra packages and interfaces specifically for WCH devices.</p> <p>You can find a general programming datasheet for the CH32V003 <a href="https://www.makerwitawat.com/wp-content/uploads/2023/05/CH32V003RM-e_unlocked.pdf">here</a>. For the rest of this post, we will be wiring and running the default MounRiver script, using the LinkE and Development Board.</p> <h3 id="hardware">Hardware</h3> <p>Plug the LinkE’s USB port into your computer. I used jumper cables to connect the following pins from the LinkE, to a breadboard which held the CH32V003 Development Board.</p> <table> <thead> <tr> <th>LinkE Pin</th> <th>DevBoard Pin</th> </tr> </thead> <tbody> <tr> <td>3V3</td> <td>V+</td> </tr> <tr> <td>GND</td> <td>GND</td> </tr> <tr> <td>Tx</td> <td>PD6 / Rx</td> </tr> <tr> <td>Rx</td> <td>PD5 / Tx</td> </tr> </tbody> </table> <h3 id="the-project">The Project</h3> <p>I assume you’ve already installed MounRiver IDE and created a new project. The default project in MounRiver, found in User &gt; main.c, is the following (my comments added for clarity):</p> <pre><code class="language-C">#include "debug.h"
+vu8 val; // Sample global variable, type vu8 = 'volatile uint8_t'
+
+/*********************************************************************
+	* @fn 	 	 	USARTx_CFG
+	*
+	* @brief 	 Initializes the USART2 &amp; USART3 peripheral.
+	*
+	* @return 	none
+	*/
+void USARTx_CFG(void)
+{
+	GPIO_InitTypeDef 	GPIO_InitStructure = {0};
+	USART_InitTypeDef USART_InitStructure = {0};
+
+	// Enable the peripheral clock for GPIO port D and USART1
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD | RCC_APB2Periph_USART1, ENABLE);
+
+	/* USART1 TX--&gt;D.5 	 RX--&gt;D.6 */
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_5;
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_30MHz;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP; // Sets the pin to 'Alternate Function Push-Pull mode' (necessary for UART TX)
+	GPIO_Init(GPIOD, &amp;GPIO_InitStructure); // Initialize GPIO pin 5 as Tx
+	 	 
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING; // Floating to receive data
+	GPIO_Init(GPIOD, &amp;GPIO_InitStructure); // Initialize GPIO pin 6 as Rx
+  
+	USART_InitStructure.USART_BaudRate = 115200;
+	USART_InitStructure.USART_WordLength = USART_WordLength_8b;
+	USART_InitStructure.USART_StopBits = USART_StopBits_1;
+	USART_InitStructure.USART_Parity = USART_Parity_No;
+	USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+	USART_InitStructure.USART_Mode = USART_Mode_Tx | USART_Mode_Rx; // Enable Tx and Rx
+		 
+	USART_Init(USART1, &amp;USART_InitStructure); // Initialize USART comm channel
+	USART_Cmd(USART1, ENABLE); // Enable USART comm channel
+}
+
+/*********************************************************************
+	* @fn  		main
+	*
+	* @brief 	 Main program.
+	*
+	* @return 	none
+	*/
+int main(void)
+{
+	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1); // Set NVIC priority (see NVIC in appendix below.)
+	SystemCoreClockUpdate(); // This updates the `SystemCoreClock` variable to reflect the current CPU frequency. Needed for proper timing of peripherals.
+	Delay_Init(); // Delays depend on system clock frequency. Init delays.
+	 	 
+#if (SDI_PRINT == SDI_PR_OPEN)
+	SDI_Printf_Enable(); // Print to Serial Debug Interface if available.
+#else
+	USART_Printf_Init(115200); // If no SDI, use UART for printing debug messages.
+#endif
+	printf("SystemClk:%d\r\n",SystemCoreClock);
+	printf( "ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
+  
+    USARTx_CFG(); // Run USART config function from above.
+  
+	while(1)
+	{
+		while(USART_GetFlagStatus(USART1, USART_FLAG_RXNE) == RESET) // Wait forever until the USART receives data and the FLAG_RXNE is set to RESET
+	 	{
+	 		/* waiting for receiving finish */
+	 	}
+	 	val = (USART_ReceiveData(USART1)); // Write received data to 'val'
+	 	USART_SendData(USART1, ~val); // Send 'val' data over USART Tx
+	 	while(USART_GetFlagStatus(USART1, USART_FLAG_TXE) == RESET) // Wait forever for Tx completion flag to RESET
+	 	{
+	 	 	/* waiting for sending finish */
+	 	}
+	 	// This loop will wait forever for incoming Rx data, then immediately send that data back over Tx, and go back to waiting.
+	}
+}
+</code></pre> <p>You can build this project by hitting CTRL + B, F7, or by clicking Project &gt; Build Project. You can run it at Debug &gt; Run. And most importantly for this script, you can click on Tools &gt; Serial Port Debug Tool to open another window which will allow you to communicate with the chip. Set the “Port” to the one recognized as a WCH device, and the baud rate to your chosen baud rate (115200 in this example), and click “Open Port”. If the script is running, then you’ll be able to type into the bottom panel, hit “Send”, and see it transmitted back into the top panel.</p> <p><img src="./log_files/assets/MounRiverSerialDebugPort.png" alt="MounRiver Serial Debug Port"/></p>]]></content><author><name>Will Kelly</name></author><category term="Electronics,"/><category term="Microcontrollers"/><summary type="html"><![CDATA[I was excited to try the new CH32V003 microcontroller from WCH out of China. It promises to be a cheap and versatile microcontroller that costs about 10¢ and can be easily flashed and integrated into a PCB project (I plan to use it for I2C logic control), and more impressive is that it’s built on RISC-V architecture. So I bought a number of bare ICs, as well as this development board, and the chip must be flashed by the WCH’s LinkE device.]]></summary></entry><entry><title type="html">Power Supply Design - Part 1 - Teardown</title><link href="https://bkell-dog.github.io/folio/blog/2025/Power-Supply-Design-Part-1/" rel="alternate" type="text/html" title="Power Supply Design - Part 1 - Teardown"/><published>2025-02-26T00:00:00+00:00</published><updated>2025-02-26T00:00:00+00:00</updated><id>https://bkell-dog.github.io/folio/blog/2025/Power-Supply-Design-Part-1</id><content type="html" xml:base="https://bkell-dog.github.io/folio/blog/2025/Power-Supply-Design-Part-1/"><![CDATA[<p>A friend asked me to design a new power supply for the device he’s planning to build, with the following specifications:</p> <ul> <li>Connect to an American wall outlet.</li> <li>Output a steady 12 V and 2.5 A.</li> <li>Fit inside a 40 mm x 40 mm x 3 mm volume, not including heat sink or wires.</li> </ul> <p>There are a lot of efficiency features and safety mechanisms that wouldn’t fit in such a small space, but this design was for a battery charger, not for an active power supply. The device would be plugged in for hours at a time, likely overnight, so transformer efficiency, immediate wattage, or voltage stability aren’t as important as in other applications.</p> <p>But to begin, since I haven’t designed a power supply before even though I understand the basics, I wanted to tear down an existing power supply and see how professionals have done it in the past. I got my hands on a TDK-Lambda SCB343D from work which also turned main power into 12 V and 2.5 A. Luckily the PCB was not multilayered, so I could trace each connection by eye.</p> <p><img src="https://i.imgur.com/RGFVf34.jpeg" alt="SDK-Lambda SCB343D"/></p> <p><img src="https://i.imgur.com/nU5MDT7.jpeg" alt="TDK-Lambda SCB343D Backside"/></p> <p>The first component was a fuse, and close by it an overvoltage protector. The AC lines moved to a full-bridge rectifier component, which output a positive and negative voltage lead. The whole circuit was able to take in 115 V and 230 V, deciding between the two with a switch. Each voltage level would be routed through it’s own power circuit so that the output was theoretically unaffected (even though the user had to manually flip a switch on the PSU).</p>]]></content><author><name>Will Kelly</name></author><category term="Electronics,"/><category term="Power"/><summary type="html"><![CDATA[A friend asked me to design a new power supply for the device he’s planning to build, with the following specifications:]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://bkell-dog.github.io/folio/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog"/><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://bkell-dog.github.io/folio/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://bkell-dog.github.io/folio/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[<h3>External Posts on Your al-folio Blog</h3> <p>If you prefer publishing blog posts on medium.com or other external sources, starting version v0.5.0, <a href="https://github.com/alshedivat/al-folio">al-folio</a> lets you to display your external posts in the blog feed of your website! 🎉🎉</p> <p>Configuring external sources of super simple. After upgrading to v0.5.0, just add the following section to your _config.yml:</p> <pre>external_sources:<br />  - name: medium.com  # name of the source (arbitrary string)<br />    rss_url: <a href="https://medium.com/@al-folio/feed">https://medium.com/@&lt;your-medium-username&gt;/feed</a></pre> <p>The example above adds your medium.com blog post feed as an external source. But you can add arbitrary RSS feeds as sources.</p> <p>Any questions or suggestions? 👉 Start <a href="https://github.com/alshedivat/al-folio/discussions">a discussion on GitHub</a>!</p> <p><img src="https://medium.com/_/stat?event=post.clientViewed&amp;referrerSource=full_rss&amp;postId=b60a1d241a0a" width="1" height="1" alt=""/></p>]]></content><author><name></name></author></entry></feed>
