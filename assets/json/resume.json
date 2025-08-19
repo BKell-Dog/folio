@@ -27,8 +27,16 @@
       "position": "Wireless Hardware Engineer",
       "startDate": "2024-06-01",
       "endDate": "Present",
-      "summary": "Tested the TCP module responsible for car cellular connectivity to discover bugs and design flaws and to coordinate their correction through suppliers. Used a system-level knowledge of GM’s common computer architecture, as well as an understanding of cell network infrastructure, to diagnose the root cause of issues. Rebuilt and rewired multiple test benches that were broken or malfunctioning according to the requirements of my team’s test plan.",
+      "summary": "I am a test engineer on the Wireless Connectivity team. I spend my days running validation tests on the TCP module that connects GM cars to the cell network, to make sure features like OnStar calls or the car's wifi hotspot work as intended. I often find problems with the module itself, in code or hardware, with the cell network, with other modules inside the car, or with the data flow design for GM services, and report them to the relevant teams for fixing. Then once a patch is made, I retest and reverify. I often work with suppliers or partners to troubleshoot issues, e.g. LG and AT&T.",
       "highlights": ["Cell Network Connectivity, RF Engineering, MATLAB"]
+    },
+    {
+      "name": "General Motors",
+      "position": "Design Release Engineer",
+      "startDate": "2023-06-15",
+      "endDate": "2024-05-31",
+      "summary": "My first year at GM was spent as a DRE, in charge of the design and production of my part, which was the headliner on the 2024 Equinox EV. The headliner is the felt material on the ceiling of your car's interior (actually its a multilayered heat-pressed plastic composite material, mostly Thermoform). I was responsible for ensuring that my headliner was produced to GM quality, had no major safety concerns as regulated by the US DOT and NHSTA, and that enough parts made it onto the production line in time to build over a million vehicles.",
+      "highlights": ["Coordinating with Suppliers, Supply Chain Logistics, Full-Project Planning, Touring Factories"]
     }
   ],
   "volunteer": [

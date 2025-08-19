@@ -3,16 +3,15 @@
 # -----------------------------------------------------------------------------
 
 title: Kelly's Lab # the website title (if blank, full name will be used instead)
-first_name: Will
+first_name: William
 middle_name: 
 last_name: Kelly
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Email or DM me from any platform.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔻 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -123,10 +122,7 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+
 
 # -----------------------------------------------------------------------------
 # Newsletter
